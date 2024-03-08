@@ -26,7 +26,7 @@ class Program{
         Console.WriteLine("* 2 -   EXIBIR CLIENTE     *");
         Console.WriteLine("* 3 -   EDITAR CLIENTE     *");
         Console.WriteLine("* 4 -   EXCLUIR CLIENTE    *");
-        Console.WriteLine("* 5 -                *");
+        Console.WriteLine("* 5 -             knkn         *");
         Console.WriteLine("* 6 -        SAIR          *");
         Console.WriteLine("****************************");
 

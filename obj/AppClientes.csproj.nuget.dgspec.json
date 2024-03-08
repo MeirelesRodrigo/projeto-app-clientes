@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROJETOS\\App01-Clientes\\AppClientes\\AppClientes.csproj": {}
+    "D:\\PROJETO\\Cliente-App\\projeto-app-clientes\\AppClientes.csproj": {}
   },
   "projects": {
-    "D:\\PROJETOS\\App01-Clientes\\AppClientes\\AppClientes.csproj": {
+    "D:\\PROJETO\\Cliente-App\\projeto-app-clientes\\AppClientes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJETOS\\App01-Clientes\\AppClientes\\AppClientes.csproj",
+        "projectUniqueName": "D:\\PROJETO\\Cliente-App\\projeto-app-clientes\\AppClientes.csproj",
         "projectName": "AppClientes",
-        "projectPath": "D:\\PROJETOS\\App01-Clientes\\AppClientes\\AppClientes.csproj",
+        "projectPath": "D:\\PROJETO\\Cliente-App\\projeto-app-clientes\\AppClientes.csproj",
         "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJETOS\\App01-Clientes\\AppClientes\\obj\\",
+        "outputPath": "D:\\PROJETO\\Cliente-App\\projeto-app-clientes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config"
