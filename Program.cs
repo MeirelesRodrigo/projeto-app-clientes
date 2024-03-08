@@ -7,7 +7,8 @@ class Program{
     static ClienteRepositorio _clienterepositorio = new ClienteRepositorio();
 
     static void Main(string[] args){
-        
+        _clienterepositorio.LerDadosClintes();
+
         while(true){
             Menu();
             Console.ReadKey();    
@@ -26,8 +27,7 @@ class Program{
         Console.WriteLine("* 2 -   EXIBIR CLIENTE     *");
         Console.WriteLine("* 3 -   EDITAR CLIENTE     *");
         Console.WriteLine("* 4 -   EXCLUIR CLIENTE    *");
-        Console.WriteLine("* 5 -       ARQUIVO        *");
-        Console.WriteLine("* 6 -        SAIR          *");
+        Console.WriteLine("* 5 -        SAIR          *");
         Console.WriteLine("****************************");
 
         EscolherOpcao();
@@ -63,7 +63,8 @@ class Program{
                 Menu();
                 break;
             }
-            case 6:{
+            case 5:{
+                _clienterepositorio.GravarDadosClintes();
                 Environment.Exit(0);
                 break;
             }

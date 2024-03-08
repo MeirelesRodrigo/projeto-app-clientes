@@ -6,6 +6,27 @@ public class ClienteRepositorio(){
 
     public List<Clientes> clientes = new List<Clientes>();
 
+      public void LerDadosClintes(){
+
+        
+
+        if(File.Exists("Clientes.txt")){
+            var dados = File.ReadAllText("Clientes.txt");
+            var clientesArquivo = System.Text.Json.JsonSerializer.Deserialize<List<Clientes>>(dados);
+        
+        //uma coleção que adiciona outra coleção
+            clientes.AddRange(clientesArquivo);
+
+        }
+        
+    }
+
+    public void GravarDadosClintes(){
+        var json = System.Text.Json.JsonSerializer.Serialize(clientes);
+
+        File.WriteAllText("Clientes.txt", json);
+    }
+
     public void ExcluirClinte(){
         Console.Clear();
         Console.WriteLine("INFORME O CÓDIGO DO CLIENTE ");
